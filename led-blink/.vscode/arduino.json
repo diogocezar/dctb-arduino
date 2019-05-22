@@ -1,0 +1,5 @@
+{
+    "sketch": "led_blink.ino",
+    "board": "arduino:avr:uno",
+    "port": "/dev/cu.usbmodem146201"
+}
