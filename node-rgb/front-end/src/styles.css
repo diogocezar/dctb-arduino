@@ -1,0 +1,27 @@
+body {
+  height: 100vh;
+}
+
+#root {
+  font-size: 14px;
+  height: 100%;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  flex-direction: column;
+}
+
+.container > h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+
+.container > .picker {
+  margin-bottom: 40px;
+}
