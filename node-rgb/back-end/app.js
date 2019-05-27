@@ -1,5 +1,5 @@
 const SerialPort = require("serialport");
-const portName = "/dev/cu.usbmodem146201";
+const portName = "/dev/cu.usbmodem146301";
 const Readline = require("@serialport/parser-readline");
 const express = require("express");
 const app = express();

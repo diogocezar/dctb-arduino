@@ -10,7 +10,7 @@ class App extends Component {
   };
   sendArduino = () => {
     const { r, g, b } = this.state.rgb;
-    axios.get(`http://localhost:9999/change/${r}/${g}/${b}`).then(result => {
+    axios.get(`http://11.1.1.117:9999/change/${r}/${g}/${b}`).then(result => {
       console.log(result);
     });
   };
